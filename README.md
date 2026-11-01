@@ -1,4 +1,4 @@
-# agentsql-cn
+# AgentSQL
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,98 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-agentsql-cn is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://agentsql.cn/
+AgentSQL（中文名：智盾）是面向 AI Agent 的数据库安全网关与 MCP Server。模型发出的 PostgreSQL / MySQL 请求在到达数据库前，经过身份认证、SQL 解析、静态与动态风险检查、四态决策与受控执行；结果按配置脱敏，并在应用层留下持久审计。AgentSQL 自有问数、图表、仪表板和嵌入应用页面，模型生成的 SQL 继续经过数据库安全网关。已有 SQLBot 部署也可接入 AgentSQL 做数据库访问控制；完整社区版功能、全部页面和现有系统零改动替换仍待逐项验收。
+
+**Areas:** Database · Security · AI · Open-source · Gateway
+
+## AgentSQL on APIs.io
+
+Everything profiled for AgentSQL is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentsql-cn/](https://apis.io/providers/agentsql-cn/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [AgentSQL API](https://apis.io/apis/agentsql-cn/agentsql-api/) — AgentSQL provides a database security gateway and autonomous query interface.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agentsql Cn Authentication](https://apis.io/security/agentsql-cn/agentsql-cn-authentication/)
+- [Agentsql Cn Domain Security](https://apis.io/security/agentsql-cn/agentsql-cn-domain-security/)
+- [Agentsql Cn Vulnerability Disclosure](https://apis.io/security/agentsql-cn/agentsql-cn-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Agentsql Cn Scopes](https://apis.io/scopes/agentsql-cn/agentsql-cn-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://agentsql.cn/)
+- [Documentation](https://github.com/cuipengdba/agentsql/tree/main/docs)
+- [Getting started](https://github.com/cuipengdba/agentsql/blob/main/docs/GETTING_STARTED.md)
+- [Security](https://github.com/cuipengdba/agentsql/security/policy)
+- [GitHub](https://github.com/cuipengdba)
+
+## API Evangelist rating
+
+**Kin Score 16.0** — emerging · rubric 0.26.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 0.0 |
+
+**Agent readiness 5.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 25.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentsql-cn/](https://apis.io/providers/agentsql-cn/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AgentSQL: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agentsql-cn/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
