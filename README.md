@@ -66,7 +66,7 @@
 
 AgentSQL（中文名：智盾）是面向 AI Agent 的数据库安全网关与 MCP Server。模型发出的 PostgreSQL / MySQL 请求在到达数据库前，经过身份认证、SQL 解析、静态与动态风险检查、四态决策与受控执行；结果按配置脱敏，并在应用层留下持久审计。AgentSQL 自有问数、图表、仪表板和嵌入应用页面，模型生成的 SQL 继续经过数据库安全网关。已有 SQLBot 部署也可接入 AgentSQL 做数据库访问控制；完整社区版功能、全部页面和现有系统零改动替换仍待逐项验收。
 
-**Areas:** Database · Security · AI · Open-source · Gateway
+**Areas:** Database · Security · Artificial Intelligence · Open Source · Gateways
 
 ## AgentSQL on APIs.io
 
@@ -84,15 +84,15 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentsql Cn Authentication](https://apis.io/security/agentsql-cn/agentsql-cn-authentication/)
-- [Agentsql Cn Domain Security](https://apis.io/security/agentsql-cn/agentsql-cn-domain-security/)
-- [Agentsql Cn Vulnerability Disclosure](https://apis.io/security/agentsql-cn/agentsql-cn-vulnerability-disclosure/)
+- [AgentSQL Authentication](https://apis.io/security/agentsql-cn/agentsql-cn-authentication/)
+- [AgentSQL Domain Security](https://apis.io/security/agentsql-cn/agentsql-cn-domain-security/)
+- [AgentSQL Vulnerability Disclosure](https://apis.io/security/agentsql-cn/agentsql-cn-vulnerability-disclosure/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Agentsql Cn Scopes](https://apis.io/scopes/agentsql-cn/agentsql-cn-scopes/)
+- [AgentSQL Scopes](https://apis.io/scopes/agentsql-cn/agentsql-cn-scopes/)
 
 ## Where to find this API
 
@@ -106,25 +106,25 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 16.0** — emerging · rubric 0.26.0 · scored 2026-11-01
+**Kin Score 16.9** — emerging · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 57.1 |
+| Discoverability | 67.9 |
 | Contract quality | 0.0 |
 | Contract governance | 0.0 |
-| Operational transparency | 15.8 |
+| Operational transparency | 14.3 |
 | Developer ergonomics | 33.3 |
 | Access clarity | 0.0 |
 
-**Agent readiness 5.6** — agent-aware
+**Agent readiness 2.5** — human-only
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | — |
 | Agentic Access | — |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | bearer (partial credit) |
 | Idempotency | — |
 | Error Semantics | — |
@@ -143,6 +143,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
 | MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 25.5** — Horizontal (data, software, accessibility, platform)
 
